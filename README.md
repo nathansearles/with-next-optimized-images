@@ -1,3 +1,13 @@
+## [Next.js](https://nextjs.org/) with [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images)
+
+```bash
+import Image from "../components/Image";
+...
+<Image src="image.jpeg" alt="Alt Tag" />
+```
+
+Read more about [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images") usage.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
