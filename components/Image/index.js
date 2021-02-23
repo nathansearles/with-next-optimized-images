@@ -36,7 +36,8 @@ const Image = ({ src, alt, maxWidth, className, ...props }) => {
     "(min-width: 721px) and (max-width: 1024px)",
     "(min-width: 1025px) and (max-width: 1280px)",
     "(min-width: 1281px) and (max-width: 1440px)",
-    "(min-width: 1441px)",
+    "(min-width: 1441px) and (max-width: 1680px)",
+    "(min-width: 1681px)",
   ];
 
   return (
@@ -95,6 +96,8 @@ const Image = ({ src, alt, maxWidth, className, ...props }) => {
             onLoad={handleImageLoaded}
             loading="lazy"
             alt={alt}
+            width={fallbackSource.width}
+            height={fallbackSource.height}
           />
         </picture>
       </div>
